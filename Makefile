@@ -3,7 +3,7 @@ ICDIRS=-I
 OPT=-O1
 CFLAGS=-Wall -Wextra -g $(INCDIRS) $(OPT) -lm
 
-CFILES=src/main.c src/hash.c
+CFILES=src/main.c src/hash.c src/prime.c
 BINARY=bin/hash
 
 all: $(BINARY)
